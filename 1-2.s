@@ -1,6 +1,6 @@
 	.text
 	.align 2
-_print_message:
+print_message:
 	la	$a0, msg
 	li	$v0, 4
 	.data
