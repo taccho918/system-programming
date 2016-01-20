@@ -1,12 +1,3 @@
-void print_char(char c)
-{
-  char s[2];
-
-  s[0] = c;
-  s[1] = '\0';
-  print_string(s);
-}
-
 void hexadecimal_print(unsigned int n)
 {
   char str[] = "0123456789ABCDEF";
