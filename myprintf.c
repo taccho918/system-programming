@@ -19,9 +19,6 @@ void myprintf(char *fmt, ...)
  
   char *p = (char*)&fmt;
   
-  //fmt++で*fmtが指す場所を順に繰り上げていき、
-  //*fmtのポインタを指す場所がなくなるまで出力する処理を繰り返す
-  
   while(*fmt){//fmtの最初が%から始まるときとそうでない時で分岐する 
     if(*fmt == '%'){ 
       fmt++; //%をとばす
